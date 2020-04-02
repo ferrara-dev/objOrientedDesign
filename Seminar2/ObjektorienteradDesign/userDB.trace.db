@@ -1,0 +1,195 @@
+2019-12-31 15:15:36 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM users WHERE name='sam' AND password=[*]'sam;"; SQL statement:
+SELECT * FROM users WHERE name='sam' AND password='sam; [42000-194]
+2019-12-31 15:15:59 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM users WHERE name='sam' AND password=[*]'sam;"; SQL statement:
+SELECT * FROM users WHERE name='sam' AND password='sam; [42000-194]
+2019-12-31 15:16:07 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM users WHERE name='sam' AND password=[*]'sam;"; SQL statement:
+SELECT * FROM users WHERE name='sam' AND password='sam; [42000-194]
+2019-12-31 15:16:10 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM users WHERE name='sam' AND password=[*]'sam;"; SQL statement:
+SELECT * FROM users WHERE name='sam' AND password='sam; [42000-194]
+2019-12-31 15:16:25 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM users WHERE name='samuel' AND password=[*]'ferrara;"; SQL statement:
+SELECT * FROM users WHERE name='samuel' AND password='ferrara; [42000-194]
+2019-12-31 15:16:27 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM users WHERE name='samuel' AND password=[*]'ferrara;"; SQL statement:
+SELECT * FROM users WHERE name='samuel' AND password='ferrara; [42000-194]
+2020-01-09 11:28:37 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "sam" [22018-194]
+2020-01-09 11:28:50 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "sam" [22018-194]
+2020-01-09 11:28:51 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "sam" [22018-194]
+2020-01-09 11:28:52 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "sam" [22018-194]
+2020-01-09 11:28:52 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "sam" [22018-194]
+2020-01-09 11:28:52 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "sam" [22018-194]
+2020-01-09 11:47:46 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USERS[*] "; expected "UPDATE, USE, {"; SQL statement:
+users [42001-194]
+2020-01-10 17:32:35 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRST_NAME VARCHAR(255),LAST_NAME VARCHAR(255)),[*]EMAIL VARCHAR(255)) ; "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), first_name VARCHAR(255),last_name VARCHAR(255)),email VARCHAR(255)) ; [42000-194]
+2020-01-10 17:33:39 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRST_NAME VARCHAR(255),LAST_NAME VARCHAR(255)),[*]EMAIL VARCHAR(255)) ; "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), first_name VARCHAR(255),last_name VARCHAR(255)),email VARCHAR(255)) ; [42000-194]
+2020-01-10 17:35:36 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRST_NAME VARCHAR(255),LAST_NAME VARCHAR(255)),[*]EMAIL VARCHAR(255)) ; "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), first_name VARCHAR(255),last_name VARCHAR(255)),email VARCHAR(255)) ; [42000-194]
+2020-01-10 17:35:44 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRST_NAME VARCHAR(255),LAST_NAME VARCHAR(255)),[*]EMAIL VARCHAR(255)) ; "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), first_name VARCHAR(255),last_name VARCHAR(255)),email VARCHAR(255)) ; [42000-194]
+2020-01-10 17:37:02 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRST_NAME VARCHAR(255),LAST_NAME VARCHAR(255)),[*]EMAIL VARCHAR(255)) ; "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), first_name VARCHAR(255),last_name VARCHAR(255)),email VARCHAR(255)) ; [42000-194]
+2020-01-10 17:37:02 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:37:51 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRST_NAME VARCHAR(255),LAST_NAME VARCHAR(255)),[*]EMAIL VARCHAR(255)) ; "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), first_name VARCHAR(255),last_name VARCHAR(255)),email VARCHAR(255)) ; [42000-194]
+2020-01-10 17:37:51 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:38:12 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRST_NAME VARCHAR(255),LAST_NAME VARCHAR(255)),[*]EMAIL VARCHAR(255)) ; "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), first_name VARCHAR(255),last_name VARCHAR(255)),email VARCHAR(255)) ; [42000-194]
+2020-01-10 17:38:12 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:38:12 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:39:09 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRSTNAME VARCHAR(255),LAS_NAME VARCHAR(255)),[*]EMAIL VARCHAR(255)); "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), firstname VARCHAR(255),las_name VARCHAR(255)),email VARCHAR(255)); [42000-194]
+2020-01-10 17:39:09 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:39:09 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:39:37 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRSTNAME VARCHAR(255),LASTNAME VARCHAR(255)),[*]EMAIL VARCHAR(255)); "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), firstname VARCHAR(255),lastname VARCHAR(255)),email VARCHAR(255)); [42000-194]
+2020-01-10 17:39:37 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:39:37 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:40:17 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRSTNAME VARCHAR(255),LASTNAME VARCHAR(255)),[*]EMAIL VARCHAR(255)); "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), firstname VARCHAR(255),lastname VARCHAR(255)),email VARCHAR(255)); [42000-194]
+2020-01-10 17:40:17 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:40:17 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:41:21 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255),FIRSTNAME VARCHAR(255),LASTNAME VARCHAR(255)),[*]EMAIL VARCHAR(255)); "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255),firstname VARCHAR(255),lastname VARCHAR(255)),email VARCHAR(255)); [42000-194]
+2020-01-10 17:41:21 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:41:21 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:41:35 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255);[*] "; expected "FOR, UNSIGNED, NOT, NULL, AS, DEFAULT, GENERATED, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255); [42001-194]
+2020-01-10 17:41:35 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:41:35 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:41:46 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Column "PASSWORD" not found; SQL statement:
+SELECT name, password FROM info [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:146)
+	at org.h2.command.dml.Select.prepare(Select.java:853)
+	at org.h2.command.Parser.prepareCommand(Parser.java:261)
+	at org.h2.engine.Session.prepareLocal(Session.java:564)
+	at org.h2.engine.Session.prepareCommand(Session.java:505)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:73)
+	at utils.UserService.readRecord(UserService.java:110)
+	at trainingapp.JavaSeH2Memory.main(JavaSeH2Memory.java:25)
+2020-01-10 17:41:46 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Column "PASSWORD" not found; SQL statement:
+SELECT name, password FROM info [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:146)
+	at org.h2.command.dml.Select.prepare(Select.java:853)
+	at org.h2.command.Parser.prepareCommand(Parser.java:261)
+	at org.h2.engine.Session.prepareLocal(Session.java:564)
+	at org.h2.engine.Session.prepareCommand(Session.java:505)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:73)
+	at utils.UserService.readRecord(UserService.java:110)
+	at trainingapp.JavaSeH2Memory.main(JavaSeH2Memory.java:26)
+2020-01-11 21:19:31 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT[[*]LJAVA.LANG.STRING;@2FC14F68FROM USERS "; expected "TOP, LIMIT, DISTINCT, ALL, *, NOT, EXISTS, INTERSECTS, SELECT, FROM, WITH"; SQL statement:
+SELECT[Ljava.lang.String;@2fc14f68FROM users [42001-194]
+2020-01-11 21:21:46 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT[[*]LJAVA.LANG.STRING;@2FC14F68FROM USERS "; expected "TOP, LIMIT, DISTINCT, ALL, *, NOT, EXISTS, INTERSECTS, SELECT, FROM, WITH"; SQL statement:
+SELECT[Ljava.lang.String;@2fc14f68FROM users [42001-194]
+2020-01-11 21:21:59 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT [[*]LJAVA.LANG.STRING;@2FC14F68FROM USERS "; expected "TOP, LIMIT, DISTINCT, ALL, *, NOT, EXISTS, INTERSECTS, SELECT, FROM, WITH"; SQL statement:
+SELECT [Ljava.lang.String;@2fc14f68FROM users [42001-194]
+2020-01-11 21:23:23 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Column "password" not found [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3172)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3234)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:308)
+	at utils.UserService.readRecord(UserService.java:115)
+	at trainingapp.JavaSeH2Memory.main(JavaSeH2Memory.java:25)
+2020-01-11 21:23:36 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Column "password" not found [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3172)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3234)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:308)
+	at utils.UserService.readRecord(UserService.java:115)
+	at trainingapp.JavaSeH2Memory.main(JavaSeH2Memory.java:25)
+2020-01-11 21:31:33 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Column "password" not found [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3172)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3234)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:308)
+	at utils.UserService.readRecord(UserService.java:115)
+	at trainingapp.JavaSeH2Memory.main(JavaSeH2Memory.java:26)
+2020-01-14 15:17:25 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
+SELECT name,password FROM user [42102-194]
+2020-01-14 15:17:48 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
+SELECT name, password FROM user [42102-194]
+2020-01-14 15:19:30 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), LAST_NAME VARCHAR(255), EMAIL VARCHAR(255), AGE INT;[*] "; expected "(, FOR, UNSIGNED, NOT, NULL, AS, DEFAULT, GENERATED, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), last_name VARCHAR(255), Email VARCHAR(255), AGE INT; [42001-194]
+2020-01-14 15:20:02 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE INFO(NAME VARCHAR(255), LAST_NAME VARCHAR(255), EMAIL VARCHAR(255), AGE INT;[*] "; expected "(, FOR, UNSIGNED, NOT, NULL, AS, DEFAULT, GENERATED, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE info(name VARCHAR(255), last_name VARCHAR(255), Email VARCHAR(255), AGE INT; [42001-194]
+2020-01-14 15:20:24 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" already exists; SQL statement:
+CREATE TABLE info(name VARCHAR(255), last_name VARCHAR(255), Email VARCHAR(255)); [42101-194]
