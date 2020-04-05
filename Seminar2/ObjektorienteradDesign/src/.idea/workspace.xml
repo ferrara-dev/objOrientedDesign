@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7b58603-4567-4ad8-bae2-296cd93fb89c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zt0m8bqZtTW9hq7Z7zMtQvgwjJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="model" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\root\IdeaProjects\ObjektorienteradDesign\src\main\resources" />
+      <recent name="C:\Users\root\IdeaProjects\ObjektorienteradDesign\src\main\java" />
+      <recent name="C:\Users\root\IdeaProjects\ObjektorienteradDesign" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="model" />
+      <recent name="dbhandler" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\root\IdeaProjects\ObjektorienteradDesign\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="JavaSeH2Memory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.JavaSeH2Memory" />
+      <module name="ObjektorienteradDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="startup.Main" />
+      <module name="ObjektorienteradDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lectureone.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="integration.productdb.Test" />
+      <module name="ObjektorienteradDesign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="integration.discountdb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.JavaSeH2Memory" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.JavaSeH2Memory" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7b58603-4567-4ad8-bae2-296cd93fb89c" name="Default Changelist" comment="" />
+      <created>1585643238263</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585643238263</updated>
+      <workItem from="1585643244859" duration="8315000" />
+      <workItem from="1585651863508" duration="71845000" />
+      <workItem from="1585842673172" duration="90692000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="380" y="120" key="#Project_Structure" timestamp="1585900581972">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="380" y="120" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1585900581972" />
+    <state x="392" y="89" key="#SQL_Dialects" timestamp="1585934227772">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="89" key="#SQL_Dialects/0.0.1600.860@0.0.1600.860" timestamp="1585934227772" />
+    <state x="392" y="115" key="#Setter_Template" timestamp="1585745212134">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="115" key="#Setter_Template/0.0.1600.860@0.0.1600.860" timestamp="1585745212134" />
+    <state x="242" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585747903902">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="242" y="120" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1585747903902" />
+    <state x="531" y="272" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585643600433">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="531" y="272" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1585643600433" />
+    <state x="605" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1586101693286">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="605" y="140" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860@0.0.1600.860" timestamp="1586101693286" />
+    <state x="465" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1586010182230">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="465" y="356" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1600.860@0.0.1600.860" timestamp="1586010182230" />
+    <state x="596" y="290" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585666684211">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="596" y="290" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860@0.0.1600.860" timestamp="1585666684211" />
+    <state x="596" y="311" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1585646933327">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="596" y="311" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1600.860@0.0.1600.860" timestamp="1585646933327" />
+    <state x="460" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586073368303">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="460" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.860@0.0.1600.860" timestamp="1586073368302" />
+    <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586108543839">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="178" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1586108543839" />
+    <state width="424" height="438" key="DebuggerActiveHint" timestamp="1586087445864">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="424" height="438" key="DebuggerActiveHint/0.0.1600.860@0.0.1600.860" timestamp="1586087445864" />
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1585833963610">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1585833963610" />
+    <state x="580" y="157" key="FileChooserDialogImpl" timestamp="1585828892161">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="157" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1585828892161" />
+    <state width="1557" height="225" key="GridCell.Tab.0.bottom" timestamp="1586109854062">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="225" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586109854062" />
+    <state width="1557" height="225" key="GridCell.Tab.0.center" timestamp="1586109854062">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="225" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1586109854062" />
+    <state width="1557" height="225" key="GridCell.Tab.0.left" timestamp="1586109854062">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="225" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1586109854062" />
+    <state width="1557" height="225" key="GridCell.Tab.0.right" timestamp="1586109854062">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="225" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1586109854062" />
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom" timestamp="1586088406976">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.bottom/0.0.1600.860@0.0.1600.860" timestamp="1586088406976" />
+    <state width="1557" height="276" key="GridCell.Tab.1.center" timestamp="1586088406976">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.center/0.0.1600.860@0.0.1600.860" timestamp="1586088406976" />
+    <state width="1557" height="276" key="GridCell.Tab.1.left" timestamp="1586088406976">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.left/0.0.1600.860@0.0.1600.860" timestamp="1586088406976" />
+    <state width="1557" height="276" key="GridCell.Tab.1.right" timestamp="1586088406976">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1557" height="276" key="GridCell.Tab.1.right/0.0.1600.860@0.0.1600.860" timestamp="1586088406976" />
+    <state x="330" y="86" key="Maven.ArtifactSearchDialog" timestamp="1585912858794">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="330" y="86" key="Maven.ArtifactSearchDialog/0.0.1600.860@0.0.1600.860" timestamp="1585912858794" />
+    <state x="291" y="107" key="SettingsEditor" timestamp="1585842641751">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="291" y="107" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1585842641751" />
+    <state x="659" y="357" width="281" height="186" key="com.codemr.intellij.editors.GraphRenderingOptionsDialog" timestamp="1585846273626">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="659" y="357" width="281" height="186" key="com.codemr.intellij.editors.GraphRenderingOptionsDialog/0.0.1600.860@0.0.1600.860" timestamp="1585846273626" />
+    <state x="653" y="132" key="com.codemr.intellij.editors.WorkingSetEditDialog" timestamp="1585845500322">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="653" y="132" key="com.codemr.intellij.editors.WorkingSetEditDialog/0.0.1600.860@0.0.1600.860" timestamp="1585845500322" />
+    <state x="607" y="298" key="com.codemr.intellij.extractors.ExtractModelDialog" timestamp="1585905938044">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="607" y="298" key="com.codemr.intellij.extractors.ExtractModelDialog/0.0.1600.860@0.0.1600.860" timestamp="1585905938044" />
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1585833963610">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1585833963610" />
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1585762496756">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1600.860@0.0.1600.860" timestamp="1585762496756" />
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.RecentChangeDialog" timestamp="1585746243096">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.history.integration.ui.views.RecentChangeDialog/0.0.1600.860@0.0.1600.860" timestamp="1585746243096" />
+    <state x="496" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1585845166179">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="496" y="255" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1585845166179" />
+    <state x="751" y="56" width="627" height="804" key="find.popup" timestamp="1586109207580">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="751" y="56" width="627" height="804" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1586109207580" />
+    <state x="456" y="195" key="run.anything.popup" timestamp="1586098647308">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="195" key="run.anything.popup/0.0.1600.860@0.0.1600.860" timestamp="1586098647308" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1586096898991">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1586096898991" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/view/cashierview/CashierGui.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="salemodel" language="JAVA" />
+        <watch expression="((SaleModel)((Controller)this).salemodel).saleDetail" language="JAVA" custom="controller.Controller,model.SaleModel" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

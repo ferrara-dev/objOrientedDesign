@@ -1,0 +1,8 @@
+Name;Amount;Unit;Price;Category;ID;Stock Status
+Chicken breast;1;kg;79;Viand;1;500
+Apple;1;pce;5;Viand;2;500
+Blueberries;0.25;kg;40;Viand;3;500
+Grapes;1;pce;35;Viand;4;500
+Milk;1;pce;10;Viand;5;200
+Beer 2% alc;1;pce;15;Misc;6;500
+News paper;1;pce;30;Literature;7;500

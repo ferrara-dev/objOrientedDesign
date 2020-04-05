@@ -1,0 +1,457 @@
+2019-12-31 15:15:36 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM users WHERE name='sam' AND password=[*]'sam;"; SQL statement:
+SELECT * FROM users WHERE name='sam' AND password='sam; [42000-194]
+2019-12-31 15:15:59 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM users WHERE name='sam' AND password=[*]'sam;"; SQL statement:
+SELECT * FROM users WHERE name='sam' AND password='sam; [42000-194]
+2019-12-31 15:16:07 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM users WHERE name='sam' AND password=[*]'sam;"; SQL statement:
+SELECT * FROM users WHERE name='sam' AND password='sam; [42000-194]
+2019-12-31 15:16:10 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM users WHERE name='sam' AND password=[*]'sam;"; SQL statement:
+SELECT * FROM users WHERE name='sam' AND password='sam; [42000-194]
+2019-12-31 15:16:25 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM users WHERE name='samuel' AND password=[*]'ferrara;"; SQL statement:
+SELECT * FROM users WHERE name='samuel' AND password='ferrara; [42000-194]
+2019-12-31 15:16:27 jdbc[18]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT * FROM users WHERE name='samuel' AND password=[*]'ferrara;"; SQL statement:
+SELECT * FROM users WHERE name='samuel' AND password='ferrara; [42000-194]
+2020-01-09 11:28:37 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "sam" [22018-194]
+2020-01-09 11:28:50 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "sam" [22018-194]
+2020-01-09 11:28:51 jdbc[8]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "sam" [22018-194]
+2020-01-09 11:28:52 jdbc[10]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "sam" [22018-194]
+2020-01-09 11:28:52 jdbc[12]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "sam" [22018-194]
+2020-01-09 11:28:52 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "sam" [22018-194]
+2020-01-09 11:47:46 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "USERS[*] "; expected "UPDATE, USE, {"; SQL statement:
+users [42001-194]
+2020-01-10 17:32:35 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRST_NAME VARCHAR(255),LAST_NAME VARCHAR(255)),[*]EMAIL VARCHAR(255)) ; "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), first_name VARCHAR(255),last_name VARCHAR(255)),email VARCHAR(255)) ; [42000-194]
+2020-01-10 17:33:39 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRST_NAME VARCHAR(255),LAST_NAME VARCHAR(255)),[*]EMAIL VARCHAR(255)) ; "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), first_name VARCHAR(255),last_name VARCHAR(255)),email VARCHAR(255)) ; [42000-194]
+2020-01-10 17:35:36 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRST_NAME VARCHAR(255),LAST_NAME VARCHAR(255)),[*]EMAIL VARCHAR(255)) ; "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), first_name VARCHAR(255),last_name VARCHAR(255)),email VARCHAR(255)) ; [42000-194]
+2020-01-10 17:35:44 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRST_NAME VARCHAR(255),LAST_NAME VARCHAR(255)),[*]EMAIL VARCHAR(255)) ; "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), first_name VARCHAR(255),last_name VARCHAR(255)),email VARCHAR(255)) ; [42000-194]
+2020-01-10 17:37:02 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRST_NAME VARCHAR(255),LAST_NAME VARCHAR(255)),[*]EMAIL VARCHAR(255)) ; "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), first_name VARCHAR(255),last_name VARCHAR(255)),email VARCHAR(255)) ; [42000-194]
+2020-01-10 17:37:02 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:37:51 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRST_NAME VARCHAR(255),LAST_NAME VARCHAR(255)),[*]EMAIL VARCHAR(255)) ; "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), first_name VARCHAR(255),last_name VARCHAR(255)),email VARCHAR(255)) ; [42000-194]
+2020-01-10 17:37:51 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:38:12 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRST_NAME VARCHAR(255),LAST_NAME VARCHAR(255)),[*]EMAIL VARCHAR(255)) ; "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), first_name VARCHAR(255),last_name VARCHAR(255)),email VARCHAR(255)) ; [42000-194]
+2020-01-10 17:38:12 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:38:12 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:39:09 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRSTNAME VARCHAR(255),LAS_NAME VARCHAR(255)),[*]EMAIL VARCHAR(255)); "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), firstname VARCHAR(255),las_name VARCHAR(255)),email VARCHAR(255)); [42000-194]
+2020-01-10 17:39:09 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:39:09 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:39:37 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRSTNAME VARCHAR(255),LASTNAME VARCHAR(255)),[*]EMAIL VARCHAR(255)); "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), firstname VARCHAR(255),lastname VARCHAR(255)),email VARCHAR(255)); [42000-194]
+2020-01-10 17:39:37 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:39:37 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:40:17 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), FIRSTNAME VARCHAR(255),LASTNAME VARCHAR(255)),[*]EMAIL VARCHAR(255)); "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), firstname VARCHAR(255),lastname VARCHAR(255)),email VARCHAR(255)); [42000-194]
+2020-01-10 17:40:17 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:40:17 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:41:21 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255),FIRSTNAME VARCHAR(255),LASTNAME VARCHAR(255)),[*]EMAIL VARCHAR(255)); "; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255),firstname VARCHAR(255),lastname VARCHAR(255)),email VARCHAR(255)); [42000-194]
+2020-01-10 17:41:21 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:41:21 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:41:35 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255);[*] "; expected "FOR, UNSIGNED, NOT, NULL, AS, DEFAULT, GENERATED, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255); [42001-194]
+2020-01-10 17:41:35 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:41:35 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" not found; SQL statement:
+SELECT name, password FROM info [42102-194]
+2020-01-10 17:41:46 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Column "PASSWORD" not found; SQL statement:
+SELECT name, password FROM info [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:146)
+	at org.h2.command.dml.Select.prepare(Select.java:853)
+	at org.h2.command.Parser.prepareCommand(Parser.java:261)
+	at org.h2.engine.Session.prepareLocal(Session.java:564)
+	at org.h2.engine.Session.prepareCommand(Session.java:505)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:73)
+	at utils.UserService.readRecord(UserService.java:110)
+	at trainingapp.JavaSeH2Memory.main(JavaSeH2Memory.java:25)
+2020-01-10 17:41:46 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Column "PASSWORD" not found; SQL statement:
+SELECT name, password FROM info [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:146)
+	at org.h2.command.dml.Select.prepare(Select.java:853)
+	at org.h2.command.Parser.prepareCommand(Parser.java:261)
+	at org.h2.engine.Session.prepareLocal(Session.java:564)
+	at org.h2.engine.Session.prepareCommand(Session.java:505)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:73)
+	at utils.UserService.readRecord(UserService.java:110)
+	at trainingapp.JavaSeH2Memory.main(JavaSeH2Memory.java:26)
+2020-01-11 21:19:31 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT[[*]LJAVA.LANG.STRING;@2FC14F68FROM USERS "; expected "TOP, LIMIT, DISTINCT, ALL, *, NOT, EXISTS, INTERSECTS, SELECT, FROM, WITH"; SQL statement:
+SELECT[Ljava.lang.String;@2fc14f68FROM users [42001-194]
+2020-01-11 21:21:46 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT[[*]LJAVA.LANG.STRING;@2FC14F68FROM USERS "; expected "TOP, LIMIT, DISTINCT, ALL, *, NOT, EXISTS, INTERSECTS, SELECT, FROM, WITH"; SQL statement:
+SELECT[Ljava.lang.String;@2fc14f68FROM users [42001-194]
+2020-01-11 21:21:59 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "SELECT [[*]LJAVA.LANG.STRING;@2FC14F68FROM USERS "; expected "TOP, LIMIT, DISTINCT, ALL, *, NOT, EXISTS, INTERSECTS, SELECT, FROM, WITH"; SQL statement:
+SELECT [Ljava.lang.String;@2fc14f68FROM users [42001-194]
+2020-01-11 21:23:23 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Column "password" not found [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3172)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3234)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:308)
+	at utils.UserService.readRecord(UserService.java:115)
+	at trainingapp.JavaSeH2Memory.main(JavaSeH2Memory.java:25)
+2020-01-11 21:23:36 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Column "password" not found [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3172)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3234)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:308)
+	at utils.UserService.readRecord(UserService.java:115)
+	at trainingapp.JavaSeH2Memory.main(JavaSeH2Memory.java:25)
+2020-01-11 21:31:33 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Column "password" not found [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3172)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3234)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:308)
+	at utils.UserService.readRecord(UserService.java:115)
+	at trainingapp.JavaSeH2Memory.main(JavaSeH2Memory.java:26)
+2020-01-14 15:17:25 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
+SELECT name,password FROM user [42102-194]
+2020-01-14 15:17:48 jdbc[6]: exception
+org.h2.jdbc.JdbcSQLException: Table "USER" not found; SQL statement:
+SELECT name, password FROM user [42102-194]
+2020-01-14 15:19:30 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS INFO(NAME VARCHAR(255), LAST_NAME VARCHAR(255), EMAIL VARCHAR(255), AGE INT;[*] "; expected "(, FOR, UNSIGNED, NOT, NULL, AS, DEFAULT, GENERATED, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS info(name VARCHAR(255), last_name VARCHAR(255), Email VARCHAR(255), AGE INT; [42001-194]
+2020-01-14 15:20:02 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "CREATE TABLE INFO(NAME VARCHAR(255), LAST_NAME VARCHAR(255), EMAIL VARCHAR(255), AGE INT;[*] "; expected "(, FOR, UNSIGNED, NOT, NULL, AS, DEFAULT, GENERATED, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE info(name VARCHAR(255), last_name VARCHAR(255), Email VARCHAR(255), AGE INT; [42001-194]
+2020-01-14 15:20:24 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "INFO" already exists; SQL statement:
+CREATE TABLE info(name VARCHAR(255), last_name VARCHAR(255), Email VARCHAR(255)); [42101-194]
+2020-04-03 19:41:46 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Column "ID" not found; SQL statement:
+INSERT INTO users  (id, name, email, country) VALUES  (?, ?, ?, ?); [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:676)
+	at org.h2.command.Parser.parseColumn(Parser.java:880)
+	at org.h2.command.Parser.parseColumnList(Parser.java:864)
+	at org.h2.command.Parser.parseInsert(Parser.java:1064)
+	at org.h2.command.Parser.parsePrepared(Parser.java:415)
+	at org.h2.command.Parser.parse(Parser.java:319)
+	at org.h2.command.Parser.parse(Parser.java:291)
+	at org.h2.command.Parser.prepareCommand(Parser.java:256)
+	at org.h2.engine.Session.prepareLocal(Session.java:564)
+	at org.h2.engine.Session.prepareCommand(Session.java:505)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:73)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:288)
+	at startup.Main$CustomerDBCreator.insertRecord(Main.java:114)
+	at startup.Main.main(Main.java:21)
+2020-04-03 19:42:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMERS" already exists; SQL statement:
+create table customers (
+  id  int(12) primary key,
+  name varchar(20),
+  email varchar(20),
+  country varchar(20),
+  ); [42101-194]
+2020-04-03 19:42:54 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Column "ID" not found; SQL statement:
+INSERT INTO users  (id, name, email, country) VALUES  (?, ?, ?, ?); [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:676)
+	at org.h2.command.Parser.parseColumn(Parser.java:880)
+	at org.h2.command.Parser.parseColumnList(Parser.java:864)
+	at org.h2.command.Parser.parseInsert(Parser.java:1064)
+	at org.h2.command.Parser.parsePrepared(Parser.java:415)
+	at org.h2.command.Parser.parse(Parser.java:319)
+	at org.h2.command.Parser.parse(Parser.java:291)
+	at org.h2.command.Parser.prepareCommand(Parser.java:256)
+	at org.h2.engine.Session.prepareLocal(Session.java:564)
+	at org.h2.engine.Session.prepareCommand(Session.java:505)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:73)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:288)
+	at startup.Main$CustomerDBCreator.insertRecord(Main.java:114)
+	at startup.Main.main(Main.java:21)
+2020-04-03 19:45:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMERS" already exists; SQL statement:
+create table customers (
+  id  int(12) primary key,
+  name varchar(20),
+  email varchar(20),
+  country varchar(20),
+  ); [42101-194]
+2020-04-03 19:45:04 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Column "ID" not found; SQL statement:
+INSERT INTO users  (id, name, email, country) VALUES  (?, ?, ?, ?); [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:676)
+	at org.h2.command.Parser.parseColumn(Parser.java:880)
+	at org.h2.command.Parser.parseColumnList(Parser.java:864)
+	at org.h2.command.Parser.parseInsert(Parser.java:1064)
+	at org.h2.command.Parser.parsePrepared(Parser.java:415)
+	at org.h2.command.Parser.parse(Parser.java:319)
+	at org.h2.command.Parser.parse(Parser.java:291)
+	at org.h2.command.Parser.prepareCommand(Parser.java:256)
+	at org.h2.engine.Session.prepareLocal(Session.java:564)
+	at org.h2.engine.Session.prepareCommand(Session.java:505)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:73)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:288)
+	at startup.Main$CustomerDBCreator.insertRecord(Main.java:114)
+	at startup.Main.main(Main.java:21)
+2020-04-03 19:45:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMERS" already exists; SQL statement:
+create table customers (
+  id  int(12) primary key,
+  name varchar(20),
+  email varchar(20),
+  country varchar(20),
+  ); [42101-194]
+2020-04-03 19:45:41 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Column "ID" not found; SQL statement:
+INSERT INTO users  (ID, name, email, country) VALUES  (?, ?, ?, ?); [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:676)
+	at org.h2.command.Parser.parseColumn(Parser.java:880)
+	at org.h2.command.Parser.parseColumnList(Parser.java:864)
+	at org.h2.command.Parser.parseInsert(Parser.java:1064)
+	at org.h2.command.Parser.parsePrepared(Parser.java:415)
+	at org.h2.command.Parser.parse(Parser.java:319)
+	at org.h2.command.Parser.parse(Parser.java:291)
+	at org.h2.command.Parser.prepareCommand(Parser.java:256)
+	at org.h2.engine.Session.prepareLocal(Session.java:564)
+	at org.h2.engine.Session.prepareCommand(Session.java:505)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:73)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:288)
+	at startup.Main$CustomerDBCreator.insertRecord(Main.java:114)
+	at startup.Main.main(Main.java:21)
+2020-04-03 20:00:21 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Column "ID" not found; SQL statement:
+SELECT * FROM users WHERE id='Samuel Ferrara' AND name='19940412-1395'; [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:146)
+	at org.h2.expression.Comparison.optimize(Comparison.java:178)
+	at org.h2.expression.ConditionAndOr.optimize(ConditionAndOr.java:130)
+	at org.h2.command.dml.Select.prepare(Select.java:856)
+	at org.h2.command.Parser.prepareCommand(Parser.java:261)
+	at org.h2.engine.Session.prepareLocal(Session.java:564)
+	at org.h2.engine.Session.prepareCommand(Session.java:505)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:73)
+	at util.MemberService.find(MemberService.java:108)
+	at util.MemberService.registerMember(MemberService.java:92)
+	at util.JavaSeH2Memory.main(JavaSeH2Memory.java:16)
+2020-04-03 20:01:40 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Column "ID" not found; SQL statement:
+SELECT * FROM users WHERE id='Samuel Ferrara' AND name='19940412-1395'; [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:146)
+	at org.h2.expression.Comparison.optimize(Comparison.java:178)
+	at org.h2.expression.ConditionAndOr.optimize(ConditionAndOr.java:130)
+	at org.h2.command.dml.Select.prepare(Select.java:856)
+	at org.h2.command.Parser.prepareCommand(Parser.java:261)
+	at org.h2.engine.Session.prepareLocal(Session.java:564)
+	at org.h2.engine.Session.prepareCommand(Session.java:505)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204)
+	at org.h2.jdbc.JdbcStatement.executeQuery(JdbcStatement.java:73)
+	at util.MemberService.find(MemberService.java:108)
+	at util.MemberService.registerMember(MemberService.java:92)
+	at util.JavaSeH2Memory.main(JavaSeH2Memory.java:16)
+2020-04-03 20:02:35 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "Samuel Ferrara"; SQL statement:
+SELECT * FROM customers WHERE id='Samuel Ferrara' AND name='19940412-1395'; [22018-194]
+2020-04-03 20:03:24 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "Samuel"; SQL statement:
+SELECT * FROM customers WHERE id='Samuel' AND name='19940412-1395'; [22018-194]
+2020-04-03 20:08:57 database: wrong user or password; user: "ROOT"
+org.h2.message.DbException: Wrong user name or password [28000-194]
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.message.DbException.get(DbException.java:144)
+	at org.h2.engine.Engine.openSession(Engine.java:104)
+	at org.h2.engine.Engine.openSession(Engine.java:176)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:154)
+	at org.h2.engine.Engine.createSession(Engine.java:137)
+	at org.h2.engine.Engine.createSession(Engine.java:27)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:354)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:116)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:100)
+	at org.h2.Driver.connect(Driver.java:69)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at util.MemberService.createTable(MemberService.java:36)
+	at util.JavaSeH2Memory.main(JavaSeH2Memory.java:14)
+Caused by: org.h2.jdbc.JdbcSQLException: Wrong user name or password [28000-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	... 16 more
+2020-04-03 20:11:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "USERS1" already exists; SQL statement:
+create table Users1(
+  id  int(12) primary key,
+  name varchar(20),
+  email varchar(20),
+  country varchar(20),
+  password varchar(20)
+  ); [42101-194]
+2020-04-04 08:12:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMERS" already exists; SQL statement:
+create table customers (
+  id  int(12) primary key,
+  name varchar(20),
+  email varchar(20),
+  country varchar(20),
+  ); [42101-194]
+2020-04-04 08:12:48 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Column "ID" not found; SQL statement:
+INSERT INTO users  (ID, name, email, country) VALUES  (?, ?, ?, ?); [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:676)
+	at org.h2.command.Parser.parseColumn(Parser.java:880)
+	at org.h2.command.Parser.parseColumnList(Parser.java:864)
+	at org.h2.command.Parser.parseInsert(Parser.java:1064)
+	at org.h2.command.Parser.parsePrepared(Parser.java:415)
+	at org.h2.command.Parser.parse(Parser.java:319)
+	at org.h2.command.Parser.parse(Parser.java:291)
+	at org.h2.command.Parser.prepareCommand(Parser.java:256)
+	at org.h2.engine.Session.prepareLocal(Session.java:564)
+	at org.h2.engine.Session.prepareCommand(Session.java:505)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:73)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:288)
+	at startup.Main$CustomerDBCreator.insertRecord(Main.java:114)
+	at startup.Main.main(Main.java:22)
+2020-04-04 08:14:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMERS" already exists; SQL statement:
+create table customers (
+  id  int(12) primary key,
+  name varchar(20),
+  email varchar(20),
+  country varchar(20),
+  ); [42101-194]
+2020-04-04 08:14:38 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Column "ID" not found; SQL statement:
+INSERT INTO users  (ID, name, email, country) VALUES  (?, ?, ?, ?); [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:676)
+	at org.h2.command.Parser.parseColumn(Parser.java:880)
+	at org.h2.command.Parser.parseColumnList(Parser.java:864)
+	at org.h2.command.Parser.parseInsert(Parser.java:1064)
+	at org.h2.command.Parser.parsePrepared(Parser.java:415)
+	at org.h2.command.Parser.parse(Parser.java:319)
+	at org.h2.command.Parser.parse(Parser.java:291)
+	at org.h2.command.Parser.prepareCommand(Parser.java:256)
+	at org.h2.engine.Session.prepareLocal(Session.java:564)
+	at org.h2.engine.Session.prepareCommand(Session.java:505)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1204)
+	at org.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:73)
+	at org.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:288)
+	at startup.Main$CustomerDBCreator.insertRecord(Main.java:114)
+	at startup.Main.main(Main.java:22)
+2020-04-04 08:23:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMERS" already exists; SQL statement:
+create table customers (
+  id  int(12) primary key,
+  name varchar(20),
+  email varchar(20),
+  country varchar(20),
+  ); [42101-194]
+2020-04-04 08:30:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Data conversion error converting "940412-1395"; SQL statement:
+SELECT * FROM customers WHERE id='940412-1395'; [22018-194]
+2020-04-04 08:47:53 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "CUSTOMERDBWHERE" not found; SQL statement:
+SELECT name FROM CustomerDBWHERE id='940412-1395' [42102-194]
+2020-04-04 08:48:10 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Column "email" not found [42122-194]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.jdbc.JdbcResultSet.getColumnIndex(JdbcResultSet.java:3172)
+	at org.h2.jdbc.JdbcResultSet.get(JdbcResultSet.java:3234)
+	at org.h2.jdbc.JdbcResultSet.getString(JdbcResultSet.java:308)
+	at startup.Main$CustomerDBCreator.readRecord(Main.java:140)
+	at startup.Main.main(Main.java:25)
